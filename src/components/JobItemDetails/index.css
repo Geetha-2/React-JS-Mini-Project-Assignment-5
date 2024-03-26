@@ -1,0 +1,132 @@
+.job-details-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.job-details-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.updated-jobs-bg-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.skills-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+.li-skills-cont {
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.skill-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+.skill-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 6px;
+}
+.life-at-company-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+.life-at-company-cont {
+  display: flex;
+  flex-direction: column;
+}
+.life-at-company-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.life-at-company-img {
+  width: 100%;
+  height: 200px;
+}
+.similar-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+.un-list-similar-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+.description-visit-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.visit-icon-cont {
+  display: flex;
+  margin-top: 8px;
+}
+.visit-text {
+  color: #6366f1;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 6px;
+}
+.visit-icon {
+  color: #6366f1;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .life-at-company-text {
+    width: 60%;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .life-at-company-img {
+    width: 30%;
+  }
+  .li-skills-cont {
+    width: 32%;
+  }
+  .similar-jobs-heading {
+    font-size: 25px;
+  }
+  .skill-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+  }
+  .skill-name {
+    font-size: 18px;
+  }
+  .life-at-company-heading {
+    font-size: 25px;
+  }
+}

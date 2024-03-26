@@ -1,0 +1,135 @@
+.jobs-data-link {
+  text-decoration: none;
+}
+.company-logo-title-rating-cont {
+  display: flex;
+}
+.company-logo-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.title-rating-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+.company-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+}
+.star-rating-count-cont {
+  display: flex;
+  margin-top: -8px;
+}
+.star-image {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.rating-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f8fafc;
+  margin-top: 0px;
+}
+.location-employment-type-package-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.location-employment-type-cont {
+  display: flex;
+  margin-top: 7px;
+}
+.location-icon-cont {
+  display: flex;
+}
+.icon {
+  color: #f8fafc;
+  margin-top: 10px;
+  margin-right: 7px;
+  font-size: 20px;
+}
+.location-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-right: 20px;
+}
+.employment-type-icon-cont {
+  display: flex;
+}
+.employment-type-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.package-text {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.hr-line-jobs {
+  border: 1px solid #475569;
+  width: 100%;
+}
+.description-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  margin-bottom: 0px;
+}
+.job-description-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 567px) {
+  .company-logo-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 18px;
+  }
+  .company-name {
+    font-size: 22px;
+  }
+  .star-image {
+    width: 19px;
+    height: 19px;
+    margin-right: 12px;
+  }
+  .rating-text {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 25px;
+    margin-top: 13px;
+    margin-right: 10px;
+  }
+  .location-text {
+    font-size: 18px;
+  }
+  .employment-type-text {
+    font-size: 18px;
+  }
+  .package-text {
+    font-size: 22px;
+  }
+  .hr-line-jobs {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .description-heading {
+    font-size: 20px;
+  }
+  .job-description-text {
+    font-size: 16px;
+  }
+}

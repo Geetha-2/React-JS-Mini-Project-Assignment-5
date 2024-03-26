@@ -1,0 +1,33 @@
+.employments-list {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+.employment-list-cont {
+  display: flex;
+  margin-left: -35px;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f8fafc;
+  padding-top: 6px;
+}
+.checkbox {
+  margin-right: 20px;
+  height: 20px;
+  width: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 567px) {
+  .label {
+    font-size: 17px;
+    margin-top: -3px;
+  }
+  .checkbox {
+    height: 22px;
+    width: 17px;
+  }
+}
